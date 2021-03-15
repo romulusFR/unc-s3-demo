@@ -1,2 +1,2 @@
-Un fichier crée suyr une autre machine
-======================================
+Un fichier crée sur une autre machine
+=====================================
