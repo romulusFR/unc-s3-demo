@@ -8,5 +8,5 @@ title("un exemple")
 p = Path(".")
 
 # print(p.as_posix())
-print("fin du tp")
+print("TP PAS FINI")
 
