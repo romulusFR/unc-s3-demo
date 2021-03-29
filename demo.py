@@ -1,17 +1,44 @@
+"""Un module d'exemple"""
+
+#%%
+
 from pathlib import Path
 
+
+
 def title(titre):
-    print(titre.center(80,"-"))
+    """Affiche un titre"""
+    print(titre.center(80, "-"))
+
 
 title("un exemple")
 
 p = Path(".")
 
-# print(p.as_posix())
+print(p.absolute())
 print("en cours")
 
-
+#%%
 def carre(x):
-    return x**2
-l = [2**i for i in range(33)]
+    """Calule le carré"""
+    return x ** 2
+
+
+l = [2 ** i for i in range(33)]
 print(l)
+
+
+def une_fonction():
+    """Un test"""
+    return 42
+
+# %%
+
+from numpy import random
+import seaborn as sns
+
+nombres = random.normal(10, 4, 20)
+
+sns.histplot(nombres)
+
+l = filter(lambda x : x >= 8 and x < 10, nombres)
