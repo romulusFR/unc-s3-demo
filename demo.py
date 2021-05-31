@@ -34,11 +34,14 @@ def une_fonction():
 
 # %%
 
-from numpy import random
+import numpy as np
 import seaborn as sns
 
-nombres = random.normal(10, 4, 20)
+nombres = np.random.normal(10, 4, 1000000)
 
 sns.histplot(nombres)
 
+
+
+#
 l = filter(lambda x : x >= 8 and x < 10, nombres)
