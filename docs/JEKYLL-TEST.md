@@ -1,5 +1,11 @@
-An h1 header
-============
+---
+layout: page
+title: "My first page"
+permalink: /jekyll/
+---
+
+An test page using jekyll with GH pages
+========================================
 
 Paragraphs are separated by a blank line.
 
