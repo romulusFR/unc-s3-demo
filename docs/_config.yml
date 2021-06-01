@@ -3,3 +3,4 @@ markdown: kramdown
 name: Un test pour préparer le semestre pair
 description: Du contenu en vrac, juste pour les options de gh, gh-pages et jekyll
 highlighter: rouge
+baseurl: /unc-s3-demo
