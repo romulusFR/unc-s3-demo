@@ -1,12 +1,5 @@
----
-layout: default
-title: "root page"
-permalink: /
----
-
-
-The INDEX Page
-==============
+The INDEX Page (v2)
+===================
 
 Paragraphs are separated by a blank line.
 
